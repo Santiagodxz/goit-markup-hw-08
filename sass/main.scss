@@ -1,0 +1,75 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./components/header";
+@import "./components/header-nav";
+@import "./components/header-contact";
+@import "./components/studio";
+@import "./components/about";
+@import "./components/what-we-do";
+@import "./components/our-team";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/footer-newsletter";
+@import "./components/portfolio-buttons";
+@import "./components/portfolio-projects";
+@import "./components/modal-window";
+@import "./components/modal-window-content";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-gray-2);
+  background: var(--brand-color-1);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h4 {
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 0px;
+}
+
+p {
+  color: var(--color-gray-2);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: $color-main;
+  height: 31px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  outline: none;
+}
+
+//   .container {
+//     /* max-width: 1200px;
+//     padding: 0 15px;
+//     margin: 0 auto; */
+//   }

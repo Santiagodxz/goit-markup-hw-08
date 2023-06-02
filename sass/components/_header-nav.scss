@@ -1,0 +1,38 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  .header__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: $color-black;
+    outline: none;
+    position: relative;
+  }
+
+  .header__link.selected {
+    color: $color-main;
+  }
+
+  .header__link--selected::after {
+    content: "";
+    background-color: $color-main;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 28px);
+    width: 100%;
+    height: 4px;
+  }
+
+  .header__link--selected:active {
+    color: $color-main;
+  }
+
+  .header__link:focus,
+  .header__link:hover {
+    color: $color-main;
+  }
+}

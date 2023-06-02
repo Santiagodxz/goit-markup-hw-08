@@ -1,0 +1,64 @@
+.team {
+  padding: 94px 0;
+  background: $color-gray-1;
+
+  .team__title {
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color-black;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+  .team__container {
+    @include container;
+  }
+
+  .team__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .team__card {
+    text-align: center;
+    background: $color-white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .social__icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+
+  .social__icons .icons__link {
+    @include flex(center, center);
+    border-radius: 25px;
+    height: 44px;
+    width: 44px;
+    outline: none;
+  }
+
+  .social__icons .icons__link:focus,
+  .social__icons .icons__link:hover {
+    background-color: $color-main;
+  }
+
+  .social__icons .icons__link .icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: $color-gray;
+  }
+
+  .social__icons .icons__link:focus .icon,
+  .social__icons .icons__link:hover .icon {
+    fill: $color-white;
+  }
+}

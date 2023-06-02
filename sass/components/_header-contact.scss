@@ -1,0 +1,36 @@
+.header__contact {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  .contact__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: $color-black;
+    outline: none;
+    position: relative;
+  }
+
+  .contact__icon {
+    stroke: $color-gray-2;
+    cursor: pointer;
+  }
+
+  .contact__icon--email {
+    width: 16px;
+    height: 12px;
+  }
+
+  .contact__icon--smartphone {
+    width: 10px;
+    height: 16px;
+  }
+
+  .contact__link:hover,
+  .contact__link:hover .contact__link--smartphone {
+    color: $color-main;
+    fill: $color-main;
+  }
+}

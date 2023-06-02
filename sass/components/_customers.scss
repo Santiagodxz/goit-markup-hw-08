@@ -1,0 +1,48 @@
+.customers {
+  padding: 94px 0;
+
+  .customers__title {
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color-black;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+
+  .customers__container {
+    @include container;
+  }
+
+  .customers__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .customer__logo {
+    width: 170px;
+    height: 92px;
+    border: 1px solid $color-gray;
+  }
+
+  .customer__logo:focus,
+  .customer__logo:hover {
+    border: 1px solid $color-main-hover;
+  }
+
+  .customer__logo .icon {
+    width: 106px;
+    height: 60px;
+    margin: 16px 32px;
+    fill: $color-gray;
+  }
+
+  .customer__logo:hover .icon,
+  .customer__logo:focus .icon {
+    fill: $color-main;
+  }
+}
