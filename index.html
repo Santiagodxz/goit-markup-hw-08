@@ -21,11 +21,24 @@
     <!-- Header Section-->
     <header class="header">
       <div class="header__container">
+
+
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-toggle__icon">
+          <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+
         <nav>
           <div class="header__nav">
-            <!--Logo-->
+    
             <a class="logo" href="./index.html">WebStudio</a>
-            <!--Menu-->
+
             <a class="header__link header__link--selected" href="./index.html"
               >Studio</a
             >
@@ -33,8 +46,8 @@
             <a class="header__link" href="">Contact</a>
           </div>
         </nav>
-        <!--Contact-->
-          <ul class="header__contact">
+
+        <ul class="header__contact">
             <li>
               <a class="contact__link" href="mailto:info@devstudio.com">
                 <svg class=".contact__icon contact__icon--email">
@@ -52,58 +65,62 @@
                 +52 55 55296000
               </a>
             </li>
-          </ul>
+        </ul>
+        
       </div>
     </header>
 
     <main>
+
       <!--Seccion Studio-->
-      <section class="studio">
+
+      <!-- <section class="studio">
         <h1 class="studio__pptext">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
         <button class="studio__button" type="button" data-modal-open>
           Request our service
         </button>
-      </section>
+      </section> -->
 
       <!--Seccion About-->
-      <section class="about">
+
+      <!-- <section class="about">
         <div class="about__container">
           <div class="about__boxes">
-            <div>
+            <div class="box__content">
               <svg class="about__boxes-icon">
                 <use href="./images/icons.svg#icon-antena"></use>
               </svg>
-              <h3 class="about__boxes-tittle">ATTENTION TO DETAILS</h3>
+              <h3 class="about__boxes-title">ATTENTION TO DETAILS</h3>
               <p>
                 We go into all the details and processes of your business to
                 develop a customized solution.
               </p>
             </div>
-            <div>
+            <div class="box__content">
               <svg class="about__boxes-icon">
                 <use href="./images/icons.svg#icon-reloj"></use>
               </svg>
-              <h3 class="about__boxes-tittle">PUNCTUALITY</h3>
+              <h3 class="about__boxes-title">PUNCTUALITY</h3>
               <p>
                 With us, you can feel safe and secure. An important principle of
                 the company: respect your time and respect the agreed deadlines.
               </p>
             </div>
-            <div>
+            <div class="box__content">
               <svg class="about__boxes-icon">
                 <use href="./images/icons.svg#icon-diagrama"></use>
               </svg>
-              <h3 class="about__boxes-tittle">PLANNING</h3>
+              <h3 class="about__boxes-title">PLANNING</h3>
               <p>
                 You will be able to observe and participate in every phase of
                 solution development and implementation.
               </p>
             </div>
-            <div>
+            <div class="box__content">
               <svg class="about__boxes-icon">
                 <use href="./images/icons.svg#icon-astronauta"></use>
               </svg>
-              <h3 class="about__boxes-tittle">MODERN TECHNOLOGIES</h3>
+              <h3 class="about__boxes-title">MODERN TECHNOLOGIES</h3>
               <p>
                 We use innovative tools to solve assigned tasks. It's time to
                 simplify work processes.
@@ -111,10 +128,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--Seccion what we do-->
-      <section class="WhatWeDo">
+
+      <!-- <section class="WhatWeDo">
         <h2 class="WhatWeDo__title">What we do</h2>
         <div class="WhatWeDo__container">
           <div class="WhatWeDo__content">
@@ -150,23 +168,24 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--Seccion team-->
-      <section class="team">
+
+      <!-- <section class="team">
         <div class="team__container">
           <h2 class="team__title">Our team</h2>
-          <!-- Cards -->
+
           <div class="team__list">
             <div class="team__card">
               <img
                 src="images/team1.jpg"
-                width="270"
+                class="card__img"
                 alt="Hombre de gafas sonriendo alegre"
               />
               <h4>Andrés Cubo</h4>
               <p>Product Designer</p>
-              <!-- Social icons -->
+
               <div class="social__icons">
                 <a class="icons__link" href="#">
                   <svg class="icon">
@@ -194,12 +213,12 @@
             <div class="team__card">
               <img
                 src="images/team2.jpg"
-                width="270"
+                class="card__img"
                 alt="Mujer rubia de gafas sonriendo"
               />
               <h4>Carla Palacios</h4>
               <p>Frontend Developer</p>
-              <!-- Social icons -->
+          
               <div class="social__icons">
                 <a class="icons__link" href="#">
                   <svg class="icon">
@@ -225,10 +244,10 @@
             </div>
 
             <div class="team__card">
-              <img src="images/team3.jpg" width="270" alt="Joven sonriendo" />
+              <img src="images/team3.jpg" class="card__img" alt="Joven sonriendo" />
               <h4>Mario Dorado</h4>
               <p>Marketing</p>
-              <!-- Social icons -->
+
               <div class="social__icons">
                 <a class="icons__link" href="#">
                   <svg class="icon">
@@ -256,12 +275,12 @@
             <div class="team__card">
               <img
                 src="images/team4.jpg"
-                width="270"
+                class="card__img"
                 alt="Hombre de gafas sonriendo"
               />
               <h4>Pablo Mijangos</h4>
               <p>UI Designer</p>
-              <!-- Social icons -->
+              
               <div class="social__icons">
                 <a class="icons__link" href="#">
                   <svg class="icon">
@@ -287,10 +306,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section Customers -->
-      <section class="customers">
+
+      <!-- <section class="customers">
         <div class="customers__container">
           <h2 class="customers__title">Regular Customers</h2>
           <div class="customers__list">
@@ -338,13 +358,13 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer__container">
-        <div class="footer__content">
-          <!-- Contact Info -->
+        <div class="footer__c
           <div>
             <a class="logo" href="">WebStudio</a>
             <address>
@@ -364,7 +384,7 @@
               </div>
             </address>
           </div>
-          <!-- Social links -->
+
           <div>
             <h3 class="footer__subtitle">FIND US ON</h3>
             <div class="footer__icons ">
@@ -390,7 +410,7 @@
               </a>
             </div>
           </div>
-          <!-- Nesletter -->
+
           <div>
             <h3 class="footer__subtitle">SUBSCRIBE TO THE NEWSLETTER</h3>
             <form>
@@ -414,7 +434,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="backdrop-container">
@@ -495,6 +515,59 @@
         </form>
       </div>
     </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="close">
+          <use href="./images/icons.svg#icon-x"></use>
+        </svg>
+        <!-- <svg
+
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg> -->
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="./index.html" class="link selected">Studio</a></li>
+        <li><a href="./portafolio.html" class="link">Portfolio</a></li>
+        <li><a href="#" class="link">Contact</a></li>
+
+      </ul>
+
+      <ul class="menu__contact">
+        <li>
+          <a class="menu-contact__link menu-contact__link--tel" href="tel:+525555296000">
+            +52 55 55296000
+          </a>
+        </li>
+        <li>
+          <a class="menu-contact__link menu-contact__link--mail" ref="mailto:info@devstudio.com">
+            info@devstudio.com
+          </a>
+        </li>
+    </ul>
+    
+    <ul class="menu__social-list">
+      <li><a href="#" class="social__link">Studio</a></li>
+      <li><a href="#" class="social__link">Portfolio</a></li>
+      <li><a href="#" class="social__link">Contact</a></li>
+      <li><a href="#" class="social__link">Contact</a></li>
+
+    </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

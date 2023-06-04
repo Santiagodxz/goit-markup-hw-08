@@ -13,12 +13,40 @@
 
   .about__boxes-icon {
     width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
   }
 
-  .clabout__boxes-tittle {
+  .about__boxes-tittle {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 16px;
+  }
+}
+
+// Media query 480----------------------------
+
+@include screen-480 {
+  .about__boxes-title {
+    text-align: center;
+  }
+}
+// Media query 768----------------------------
+
+@include screen-768 {
+  .about__container {
+    .about__boxes {
+      flex-wrap: wrap;
+
+      .box__content {
+        width: 354px;
+
+        .about__boxes-icon {
+          width: 354px;
+        }
+      }
+    }
   }
 }

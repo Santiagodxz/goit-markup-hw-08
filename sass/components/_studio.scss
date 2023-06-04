@@ -39,3 +39,33 @@
     cursor: pointer;
   }
 }
+
+// Media query 480----------------------------
+
+@include screen-480 {
+  .studio {
+    height: 400px;
+    background-size: cover;
+
+    .studio__pptext{
+      width: 360px;
+      font-size: 26px;
+      line-height: 42px;
+    }
+  }
+}
+
+// Media query 768----------------------------
+
+@include screen-768 {
+  .studio {
+    height: 400px;
+    background-size: cover;
+  
+    .studio__pptext{
+      width: 360px;
+      font-size: 26px;
+      line-height: 42px;
+    }
+  }
+}

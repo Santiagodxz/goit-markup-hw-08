@@ -8,7 +8,7 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-gray-2;
     outline: none;
     position: relative;
   }
@@ -32,5 +32,23 @@
   .contact__link:hover .contact__link--smartphone {
     color: $color-main;
     fill: $color-main;
+  }
+}
+
+// Media query 480----------------------------
+
+@include screen-480 {
+  .header__contact {
+    display: none;
+  }
+}
+
+// Media query 768----------------------------
+
+@include screen-768 {
+  .header__contact{
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
   }
 }

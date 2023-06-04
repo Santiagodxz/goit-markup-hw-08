@@ -42,3 +42,19 @@
     text-transform: uppercase;
   }
 }
+
+// Media query 480----------------------------
+
+@include screen-480 {
+  .WhatWeDo {
+    display: none;
+  }
+}
+
+// Media query 768----------------------------
+
+@include screen-768 {
+  .WhatWeDo {
+    display: none;
+  }
+}
