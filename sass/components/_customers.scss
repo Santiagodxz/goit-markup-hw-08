@@ -46,3 +46,29 @@
     fill: $color-main;
   }
 }
+
+// Media query 480----------------------------
+
+@include screen-480 {
+  .customers__list {
+    flex-wrap: wrap;
+
+    .customer__logo {
+      width: 210px;
+      text-align: center;
+    }
+  }
+}
+
+// Media query 768----------------------------
+
+@include screen-768 {
+  .customers__list {
+    flex-wrap: wrap;
+
+    .customer__logo {
+      width: 226px;
+      text-align: center;
+    }
+  }
+}
