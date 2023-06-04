@@ -29,10 +29,26 @@
 // Media query 480----------------------------
 
 @include screen-480 {
+  .about__container {
+    .about__boxes {
+      flex-wrap: wrap;
+
+      .box__content {
+        width: 450px;
+
+        .about__boxes-icon {
+          width: 450px;
+
+        }
+      }
+    }
+  }
+  
   .about__boxes-title {
     text-align: center;
   }
 }
+
 // Media query 768----------------------------
 
 @include screen-768 {
