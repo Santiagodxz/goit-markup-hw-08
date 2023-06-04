@@ -19,24 +19,20 @@
   </head>
   <body>
     <!-- Header Section-->
-    <!-- <header class="header">
+    <header class="header">
       <div class="header__container">
-
-
         <button
           class="menu-toggle js-open-menu"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
           <svg class="menu-toggle__icon">
-          <use href="./images/icons.svg#icon-menu"></use>
+            <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
 
-
         <nav>
           <div class="header__nav">
-    
             <a class="logo" href="./index.html">WebStudio</a>
 
             <a class="header__link header__link--selected" href="./index.html"
@@ -48,42 +44,40 @@
         </nav>
 
         <ul class="header__contact">
-            <li>
-              <a class="contact__link" href="mailto:info@devstudio.com">
-                <svg class=".contact__icon contact__icon--email">
-                  <use href="./images/icons.svg#icon-sobre"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
+          <li>
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class=".contact__icon contact__icon--email">
+                <use href="./images/icons.svg#icon-sobre"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
 
-            <li>
-              <a class="contact__link" href="tel:+525555296000">
-                <svg class=".contact__icon contact__icon--smartphone">
-                  <use href="./images/icons.svg#icon-telefono-inteligente"></use>
-                </svg>
-                +52 55 55296000
-              </a>
-            </li>
+          <li>
+            <a class="contact__link" href="tel:+525555296000">
+              <svg class=".contact__icon contact__icon--smartphone">
+                <use href="./images/icons.svg#icon-telefono-inteligente"></use>
+              </svg>
+              +52 55 55296000
+            </a>
+          </li>
         </ul>
-        
       </div>
-    </header> -->
+    </header>
 
     <main>
-
       <!--Seccion Studio-->
-<!-- 
+
       <section class="studio">
         <h1 class="studio__pptext">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
         <button class="studio__button" type="button" data-modal-open>
           Request our service
         </button>
-      </section> -->
+      </section>
 
       <!--Seccion About-->
 
-      <!-- <section class="about">
+      <section class="about">
         <div class="about__container">
           <div class="about__boxes">
             <div class="box__content">
@@ -128,16 +122,16 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!--Seccion what we do-->
 
-      <!-- <section class="WhatWeDo">
+      <section class="WhatWeDo">
         <h2 class="WhatWeDo__title">What we do</h2>
         <div class="WhatWeDo__container">
           <div class="WhatWeDo__content">
             <div>
-              <img 
+              <img
                 src="images/image1.jpg"
                 alt="programador escribiendo"
                 width="100%"
@@ -168,21 +162,27 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!--Seccion team-->
 
-      <!-- <section class="team">
+      <section class="team">
         <div class="team__container">
           <h2 class="team__title">Our team</h2>
 
           <div class="team__list">
             <div class="team__card">
-              <img
-                src="images/team1.jpg"
-                class="card__img"
-                alt="Hombre de gafas sonriendo alegre"
-              />
+              <picture>
+                <source
+                  srcset="./images/team1.jpg 1x, ./images/team1@2x.jpg 2x"
+                />
+                <img
+                  src="images/team1.jpg"
+                  class="card__img"
+                  alt="Hombre de gafas sonriendo alegre"
+                />
+              </picture>
+
               <h4>Andrés Cubo</h4>
               <p>Product Designer</p>
 
@@ -211,14 +211,17 @@
             </div>
 
             <div class="team__card">
-              <img
-                src="images/team2.jpg"
-                class="card__img"
-                alt="Mujer rubia de gafas sonriendo"
-              />
+              <picture>
+                <source srcset="images/team2.jpg 1x, images/team2@2x.jpg 2x" />
+                <img
+                  src="images/team2.jpg"
+                  class="card__img"
+                  alt="Mujer rubia de gafas sonriendo"
+                />
+              </picture>
               <h4>Carla Palacios</h4>
               <p>Frontend Developer</p>
-          
+
               <div class="social__icons">
                 <a class="icons__link" href="#">
                   <svg class="icon">
@@ -244,7 +247,14 @@
             </div>
 
             <div class="team__card">
-              <img src="images/team3.jpg" class="card__img" alt="Joven sonriendo" />
+              <picture>
+                <source srcset="images/team3.jpg 1x, images/team3@2x.jpg 2x" />
+                <img
+                  src="images/team3.jpg"
+                  class="card__img"
+                  alt="Joven sonriendo"
+                />
+              </picture>
               <h4>Mario Dorado</h4>
               <p>Marketing</p>
 
@@ -273,14 +283,17 @@
             </div>
 
             <div class="team__card">
-              <img
-                src="images/team4.jpg"
-                class="card__img"
-                alt="Hombre de gafas sonriendo"
-              />
+              <picture>
+                <source srcset="images/team4.jpg 1x, images/team4@2x.jpg 2x" />
+                <img
+                  src="images/team4.jpg"
+                  class="card__img"
+                  alt="Hombre de gafas sonriendo"
+                />
+              </picture>
               <h4>Pablo Mijangos</h4>
               <p>UI Designer</p>
-              
+
               <div class="social__icons">
                 <a class="icons__link" href="#">
                   <svg class="icon">
@@ -306,11 +319,11 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- Section Customers -->
 
-      <!-- <section class="customers">
+      <section class="customers">
         <div class="customers__container">
           <h2 class="customers__title">Regular Customers</h2>
           <div class="customers__list">
@@ -358,8 +371,7 @@
             </div>
           </div>
         </div>
-      </section> -->
-
+      </section>
     </main>
 
     <footer class="footer">
@@ -387,7 +399,7 @@
 
           <div>
             <h3 class="footer__subtitle">FIND US ON</h3>
-            <div class="footer__icons ">
+            <div class="footer__icons">
               <a class="footer__icons-link" href="#">
                 <svg class="icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
@@ -521,44 +533,39 @@
         <svg class="close">
           <use href="./images/icons.svg#icon-x"></use>
         </svg>
-        <!-- <svg
-
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg> -->
       </button>
 
       <ul class="mobile-menu">
         <li><a href="./index.html" class="link selected">Studio</a></li>
         <li><a href="./portafolio.html" class="link">Portfolio</a></li>
         <li><a href="#" class="link">Contact</a></li>
-
       </ul>
 
       <ul class="menu__contact">
         <li>
-          <a class="menu-contact__link menu-contact__link--tel" href="tel:+525555296000">
+          <a
+            class="menu-contact__link menu-contact__link--tel"
+            href="tel:+525555296000"
+          >
             +52 55 55296000
           </a>
         </li>
         <li>
-          <a class="menu-contact__link menu-contact__link--mail" ref="mailto:info@devstudio.com">
+          <a
+            class="menu-contact__link menu-contact__link--mail"
+            ref="mailto:info@devstudio.com"
+          >
             info@devstudio.com
           </a>
         </li>
-    </ul>
-    
-    <ul class="menu__social-list">
-      <li><a href="#" class="social__link">Studio</a></li>
-      <li><a href="#" class="social__link">Portfolio</a></li>
-      <li><a href="#" class="social__link">Contact</a></li>
-      <li><a href="#" class="social__link">Contact</a></li>
+      </ul>
 
-    </ul>
+      <ul class="menu__social-list">
+        <li><a href="#" class="social__link">Instagram</a></li>
+        <li><a href="#" class="social__link">Twitter</a></li>
+        <li><a href="#" class="social__link">Facebook</a></li>
+        <li><a href="#" class="social__link">LinkedIn</a></li>
+      </ul>
     </div>
 
     <script
