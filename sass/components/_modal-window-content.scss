@@ -119,46 +119,28 @@
 }
 // Media query 480----------------------------
 
-@include screen-480{
-  .backdrop-container{
+@include screen-480 {
+  .backdrop-container {
     width: 450px;
     height: 609px;
-  
-    // padding: 40px;
-    // position: relative;
-    // width: 528px;
-    // height: 581px;
-    // background-color: $color-white;
-    // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    //   0px 2px 1px rgba(0, 0, 0, 0.2);
-    // border-radius: 4px;
 
-    .modal-form__button{
-    left: 125px;
-    top: 519px;
+    .modal-form__button {
+      left: 125px;
+      top: 519px;
     }
   }
 }
 
 // Media query 768----------------------------
 
-@include screen-768{
-  .backdrop-container{
+@include screen-768 {
+  .backdrop-container {
     width: 450px;
     height: 609px;
-  
-    // padding: 40px;
-    // position: relative;
-    // width: 528px;
-    // height: 581px;
-    // background-color: $color-white;
-    // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    //   0px 2px 1px rgba(0, 0, 0, 0.2);
-    // border-radius: 4px;
 
-    .modal-form__button{
-    left: 125px;
-    top: 519px;
+    .modal-form__button {
+      left: 125px;
+      top: 519px;
     }
   }
 }

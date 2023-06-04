@@ -29,7 +29,7 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
-    .card__img{
+    .card__img {
       width: 270px;
     }
   }
@@ -70,37 +70,35 @@
 // Media query 480----------------------------
 
 @include screen-480 {
-.team__list{
-  flex-wrap: wrap;
-  gap:30px;
+  .team__list {
+    flex-wrap: wrap;
+    gap: 30px;
 
-  .team__card{
-    @include flex(center, center, column);
-    width: 100%;
-
-    .card__img{
+    .team__card {
+      @include flex(center, center, column);
       width: 100%;
-    }
 
+      .card__img {
+        width: 100%;
+      }
+    }
   }
-}
 }
 
 // Media query 768----------------------------
 
 @include screen-768 {
-  .team__list{
+  .team__list {
     flex-wrap: wrap;
-    gap:30px;
-  
-    .team__card{
+    gap: 30px;
+
+    .team__card {
       @include flex(center, center, column);
-      width: 354px ;
-  
-      .card__img{
+      width: 354px;
+
+      .card__img {
         width: 100%;
       }
-  
     }
   }
 }

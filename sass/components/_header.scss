@@ -13,12 +13,11 @@
 // Media query 480----------------------------
 
 @include screen-480 {
-
-  .header .header__container{
+  .header .header__container {
     flex-direction: row-reverse;
   }
 }
 
 // Media query 768----------------------------
 
-@include screen-768
+@include screen-768;
