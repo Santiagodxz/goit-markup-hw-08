@@ -15,21 +15,27 @@
 
   .WhatWeDo__container {
     @include container;
-  }
 
-  .WhatWeDo__content {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-  }
+    .WhatWeDo__content {
+      display: flex;
+      justify-content: space-between;
 
-  .WhatWeDo__bgDescription {
-    @include flex(center, center);
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(47, 48, 58, 0.8);
-    height: 70px;
-    width: 370px;
+      .WhatWeDo__img-box {
+        position: relative;
+        background-color: aqua;
+        width: 370px;
+        text-align: center;
+
+        .WhatWeDo__bgDescription {
+          @include flex(center, center);
+          position: absolute;
+          bottom: 0px;
+          background-color: rgba(47, 48, 58, 0.8);
+          height: 70px;
+          width: 100%;
+        }
+      }
+    }
   }
 
   .WhatWeDo__description {
