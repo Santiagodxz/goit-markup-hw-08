@@ -10,7 +10,6 @@
 
   .footer__content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
   }
@@ -97,7 +96,7 @@
 @include screen-768 {
   .footer {
     height: 100%;
-    padding: 60px;
+    padding: 75px;
 
     .footer__content {
       flex-wrap: wrap;

@@ -7,7 +7,6 @@
     .about__boxes {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
       gap: 30px;
     }
 
@@ -38,10 +37,10 @@
         flex-wrap: wrap;
 
         .box__content {
-          width: 450px;
+          width: 100%;
 
           .about__boxes-icon {
-            width: 450px;
+            width: 100%;
           }
         }
       }
@@ -56,14 +55,15 @@
 
   @include screen-768 {
     .about__container {
+
       .about__boxes {
         flex-wrap: wrap;
-
+        
         .box__content {
           width: 354px;
 
           .about__boxes-icon {
-            width: 354px;
+            width: 100%;
           }
         }
       }
