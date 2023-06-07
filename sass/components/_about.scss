@@ -50,23 +50,35 @@
       text-align: center;
     }
   }
+}
 
   // Media query 768----------------------------
 
-  @include screen-768 {
+@include screen-768 {
     .about__container {
-
-      .about__boxes {
+      .about__boxes{
         flex-wrap: wrap;
-        
-        .box__content {
-          width: 354px;
+      }
 
-          .about__boxes-icon {
-            width: 100%;
-          }
+      .group__768 {
+        gap: 30px;
+      }
+
+      .box__content {
+        width: 354px;
+
+        .about__boxes-icon {
+          width: 100%;
         }
       }
     }
+  }
+
+
+@include screen-1200 {
+  .group__768 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
   }
 }

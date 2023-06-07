@@ -19,7 +19,6 @@
 
   .customers__list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
   }
@@ -54,9 +53,15 @@
   .customers__list {
     flex-wrap: wrap;
 
-    .customer__logo {
-      width: 210px;
-      text-align: center;
+    .group__768 {
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+
+      .customer__logo {
+        width: 210px;
+        text-align: center;
+      }
     }
   }
 }
@@ -67,9 +72,24 @@
   .customers__list {
     flex-wrap: wrap;
 
+    .group__768 {
+      gap: 30px;
+    }
     .customer__logo {
       width: 226px;
       text-align: center;
+    }
+  }
+}
+
+@include screen-1200 {
+  .customers__list {
+    @include container;
+
+    .customer__logo {
+      width: 170px;
+      text-align: center;
+      margin: 0 1px;
     }
   }
 }
